@@ -1,43 +1,44 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+cache/
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
 
-# Folder config file
-Desktop.ini
+.idea/
+*.iml
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+node_modules/
+src/app/vendor
+src/app/themes
+build/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+pids
+logs
+results
 
-# Windows shortcuts
-*.lnk
+npm-debug.log
 
-# =========================
-# Operating System Files
-# =========================
+app.nw
 
-# OSX
-# =========================
+.sass-cache
+*-ck.js
+*.srt
+*.DS_Store
 
-.DS_Store
-.AppleDouble
-.LSOverride
+# vim swap files
+*.swp
 
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+src/app/css/app.css
+*.sublime-*
+dist/windows/*-Setup.exe
+dist/windows/update.exe
+dist/linux/linux-installer
+dist/linux/*.deb
+*.bat
+*.db
+*git.json
+*openvpn*
